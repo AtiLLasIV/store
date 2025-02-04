@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.categories {
+  display: grid;
+  padding: 20px;
+  gap: 20px;
+}
+
+.categories-card {
+  border: 1px;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #EEECEC;
+  text-align: center;
+}
+
+.categories-buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.categories-button {
+  background-color: #D9D9D9;
+  padding: 20px 20px;
+  border: 1px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.categories-button-clicked {
+  background-color: #b7b7b7;
+  padding: 20px 20px;
+  border: 1px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.categories-card button:hover {
+  background-color: #c5c5c5;
+}
+
+.categories-card button:hover {
+  background-color: #c5c5c5;
+}
+
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.cart-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.product-card {
+  border: 1px;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #CBBABA;
+  text-align: left;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  /*height: 300px;*/
+}
+
+.product-card img {
+  max-width: 100%;
+  height: 200px;
+}
+
+.product-card_cart img {
+  max-width: 100%;
+  width: 250px;
+}
+
+.main-add-button {
+  /*top: -30%;*/
+  margin-left: 65%;
+  margin-top: -9%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #E6E4FD;
+  border: none;
+  cursor: pointer;
+}
+
+.main-del-button {
+  margin-left: 65%;
+  margin-top: -9%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #d3ffc3;
+  border: none;
+  cursor: pointer;
+}
+
+.product-card_cart {
+  border: 1px;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #CBBABA;
+  text-align: left;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  /*height: 300px;*/
+}
+
+.info_cart {
+  position: absolute;
+  margin-top: -1%;
+  margin-left: 20%;
+  padding: 5px;
+  border-radius: 5px;
+  max-width: 60%;
+}
+
+
+.cart-del-button {
+  margin-left: 85%;
+  margin-top: -5%;
+  /*transform: translateY(-45%);*/
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #d3ffc3;
+  border: none;
+  cursor: pointer;
+}
+
+.main-add-button:hover {
+  background-color: #e0dcff;
+}
+
+.main-del-button:hover {
+  background-color: #ffc2c2;
+}
+
+.cart-del-button:hover {
+  background-color: #ffc2c2;
+}
+

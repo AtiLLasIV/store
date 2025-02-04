@@ -1,0 +1,5 @@
+.idea/
+.DS_Store
+env/
+frontend/node_modules/
+goods_db.json

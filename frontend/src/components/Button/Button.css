@@ -1,0 +1,15 @@
+.header-button {
+  background-color: #D9D9D9;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.active-button {
+  background-color: #C8C8C8;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

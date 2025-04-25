@@ -19,3 +19,22 @@ pass: admin
 ##### Пример пользователя: 
 login: newuser1234  
 pass: 1234
+
+---
+
+## Скриншоты:
+![Главная, гость](screens/main-guest.png)
+
+![Авторизация](screens/auth.png)
+
+![Профиль](screens/profile.png)
+
+![Главная, админ](screens/main-admin.png)
+
+![Страница продукта](screens/product-page.png)
+
+![Редактирование продукта](screens/edit-product.png)
+
+![Корзина](screens/cart.png)
+
+![Категории](screens/category.png)
